@@ -17,7 +17,7 @@ jobs:
                 os: windows-latest
             include:
               - images: amd64/alpine
-                os: windoes-latest
+                os: windows-latest
         runs-on: ${{ matrix.os }}
         steps:
         - name: Echo Docker Details
